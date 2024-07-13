@@ -1,7 +1,7 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
-import c as sns
+import seaborn as sns
 
 # defining file path we are in the same folder
 file_path = "Life Expectancy Data.csv"
