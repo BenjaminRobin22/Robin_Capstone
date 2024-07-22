@@ -2,3 +2,5 @@ pandas
 matplotlib.pyplot
 seaborn
 Python 3 
+sklearn (.model_selection) (.tree) (.metrics) (.ensemble)
+JupyterLabs 

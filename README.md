@@ -5,6 +5,10 @@ Kaggle Dataset https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who
 
 Ben Robin's Data Science July 2024 Capstone Project Summer 2024. Identifying Factors That Affect Life Expectancy.
 
+## Objective 
+Put into perspective the factors that affect life expectancy while helping to assign them a proper level of importance through data driven
+ analysis.
+
 ## Stage 1 
 Downloaded the source file from Kaggle and ran data attribute analyis on it with MetaData.py
 Result was an image that analysed 20 columns with the use of pandas, matplotlib and  seaborn
@@ -38,3 +42,17 @@ Steps
 3. Visulizing data distribution relationally
 4. Exposing trends in the data. Looking for direct relationships with life expectancty from dependant variables
 5. Printing final data set so it is avaliable for machine learning phase
+
+## Stage 4 
+Predctive Analysis
+Employing machine learning scripts to predict life expectancy results for different dimensions. Ranking attributes according to their importance in predicting life expectancy. Visually presenting the results. Comparing three different machine learning models Decision Tree Regressor, Random Forest Regressor, and Gradient Boosting Regressor. 
+
+Steps
+1.  Import the data
+2. Spliting the data set 80% Train and 20% Test
+3. Running Predictive Machine Learning Models
+4. Visually analyzing the results
+
+## Results
+
+Through detailed machine learning scripts with multiple iterations and checks along the way we found that one needs to consider thier envirnment when looking for key factors for life expectancy. The more details you give the model the more specific a prediction for factors become as the important of these factors vary widely. This is a field where it pays to have granular attributes to work with as the model clearly shows that gathering this information will pay off. 
